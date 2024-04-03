@@ -37,7 +37,7 @@ prob # 0.9209
 
 # variance matrix to estimate b 
 summary(out1)$coeff[,"Std. Error"]
-vcov(out1) # these are the squares of teh std.errors dummy 
+vcov(out1) # these are the squares of the std.errors dummy 
 
 for (i in 1:3){
   sqrt <- sqrt(vcov(out1)[i,i])
