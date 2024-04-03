@@ -21,7 +21,7 @@ head(blooddata)
 y2 <- cbind(y, n-y)
 ag <- factor(ag)
 
-# the scale of x is too large, lets take log(x)
+# the scale of x is too large, lets take log(x) 
 
 # now fit the model with the same slope for both AG groups
 
